@@ -1,0 +1,25 @@
+{
+  "name": "bashkarev/r01",
+  "description": "Soap client r01.ru",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bashkarev",
+      "email": "dmitriy@bashkarev.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-soap": "*",
+    "Psr/Log": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "fzaninotto/faker": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "bashkarev\\r01\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+/vendor
+/.env
+/.idea
+composer.phar
+composer.lock
+.DS_Store
+Thumbs.db
+debug.log
